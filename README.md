@@ -7,17 +7,13 @@ Ce projet est une **base de démarrage prête à l’emploi** pour créer rapide
 - ✅ Alpine.js pour gérer l’interactivité
 - ✅ Un bouton dark/light mode fonctionnel (persistant avec localStorage)
 - ✅ Vite.js pour la compilation des assets
-- ✅ Une structure claire et réutilisable pour tes futurs projets
+- ✅ Une structure claire et réutilisable pour les futurs projets
 
 ---
 
 ## 📁 Structure des dossiers
 
 projet-laravel-tailwind-darkmode/ ├── app/ ├── resources/ │ ├── css/ │ │ └── app.css # Import Tailwind CSS │ ├── js/ │ │ └── app.js # Initialisation Alpine.js │ └── views/ │ └── layouts/ │ └── app.blade.php # Layout avec dark/light mode ├── tailwind.config.js # Palette personnalisée + config dark mode ├── postcss.config.js # PostCSS config pour Vite ├── vite.config.js ├── package.json └── ...
-
-yaml
-Copier
-Modifier
 
 ---
 
@@ -79,17 +75,6 @@ blue: {
   950: '#1e3a8a',
 },
 // etc.
-🛠 Parfait pour démarrer un projet
-Tu peux utiliser cette base pour :
-
-Un site vitrine
-
-Un dashboard admin
-
-Un projet perso ou scolaire
-
-Une application plus avancée avec Jetstream, Livewire, Inertia...
 
 📄 Auteur
 Projet préparé par Pierre 🦇
-(avec amour et rigueur d’esprit bleu 💙)
